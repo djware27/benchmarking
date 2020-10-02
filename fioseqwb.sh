@@ -1,0 +1,1 @@
+fio --name TEST --eta-newline=5s --filename=fio-tempfile.dat --rw=write --size=1g --io_size=10g --blocksize=2048k --ioengine=libaio --fsync=10000 --iodepth=32 --direct=1 --numjobs=1 --runtime=60 --group_reporting
